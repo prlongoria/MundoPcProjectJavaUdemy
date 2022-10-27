@@ -5,15 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fa738c8-6c80-4ea3-b993-6121e1f09198" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gm/mundopc/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gm/mundopc/Display.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gm/mundopc/Keyboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gm/mundopc/Mouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gm/mundopc/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gm/mundopc/inputDevice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MundoPC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gm/mundopc/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gm/mundopc/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gm/mundopc/Display.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gm/mundopc/Display.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gm/mundopc/Keyboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gm/mundopc/Keyboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gm/mundopc/Mouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gm/mundopc/Mouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gm/mundopc/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gm/mundopc/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MundoPC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MundoPC.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

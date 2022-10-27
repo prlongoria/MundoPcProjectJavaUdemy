@@ -4,12 +4,12 @@ public class Keyboard extends inputDevice{
     private int idKeyboard;
     private static int counterKeyboards;
 
-    private Keyboard() {
+    public Keyboard() {
         this.idKeyboard = ++Keyboard.counterKeyboards;
 
     }
 
-    private Keyboard(String inputType, String brand) {
+    public Keyboard(String inputType, String brand) {
         this.inputType = inputType;
         this.brand = brand;
     }

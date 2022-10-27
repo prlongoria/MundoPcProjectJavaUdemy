@@ -5,11 +5,11 @@ public class Mouse extends inputDevice{
     private int idMouse;
     private static int counterMouses;
 
-    private Mouse() {
+    public Mouse() {
         this.idMouse = ++Mouse.counterMouses;
     }
 
-    private Mouse(String inputType, String brand) {
+    public Mouse(String inputType, String brand) {
 
     this.inputType = inputType;
     this.brand = brand;

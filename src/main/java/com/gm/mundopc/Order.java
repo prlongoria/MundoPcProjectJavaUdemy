@@ -1,7 +1,7 @@
 package com.gm.mundopc;
 
 public class Order {
-    private int idOrder;
+    private final int idOrder;
     private Computer computers[];
     private static int counterOrders;
     private int counterComputers;

@@ -10,7 +10,7 @@ public class Display {
         this.idDisplay = ++Display.counterDisplays;
     }
 
-    private Display(String brandDisplay, double sizeDisplay) {
+    public Display(String brandDisplay, double sizeDisplay) {
         this. brandDisplay = brandDisplay;
         this.sizeDisplay = sizeDisplay;
     }

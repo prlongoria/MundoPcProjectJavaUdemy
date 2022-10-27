@@ -1,11 +1,13 @@
 package com.gm.mundopc;
 
+import javax.management.monitor.Monitor;
+
 public class Computer {
-    private final int idComputer;
+    private int idComputer;  //final?
     private  String nameComputer;
-    private String display;
-    private String keyboard;
-    private  String mouse;
+    private Display display;
+    private Keyboard keyboard;
+    private  Mouse mouse;
 
     private static int counterComputer;
 
@@ -13,7 +15,7 @@ public class Computer {
     this.idComputer = ++Computer.counterComputer;
     }
 
-    public Computer(String nameComputer, String display, String keyboard, String mouse) {
+    public Computer(String nameComputer, Display display, Keyboard keyboard, Mouse mouse) {
         this();
         this.nameComputer = nameComputer;
         this.display = display;
@@ -33,27 +35,27 @@ public class Computer {
         this.nameComputer = nameComputer;
     }
 
-    public String getDisplay() {
+    public Display getDisplay() {
         return display;
     }
 
-    public void setDisplay(String display) {
+    public void setDisplay(Display display) {
         this.display = display;
     }
 
-    public String getKeyboard() {
+    public Keyboard getKeyboard() {
         return keyboard;
     }
 
-    public void setKeyboard(String keyboard) {
+    public void setKeyboard(Keyboard keyboard) {
         this.keyboard = keyboard;
     }
 
-    public String getMouse() {
+    public Mouse getMouse() {
         return mouse;
     }
 
-    public void setMouse(String mouse) {
+    public void setMouse(Mouse mouse) {
         this.mouse = mouse;
     }
 
